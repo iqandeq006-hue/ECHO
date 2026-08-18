@@ -1,0 +1,15 @@
+# ECHO — core dependencies (confirmed against actual imports in the codebase)
+PyQt5
+sounddevice
+numpy
+keyboard
+pyperclip
+pyautogui
+faster-whisper
+
+# --- GPU (CUDA 12 / cuDNN 9) support, optional ---
+# Only needed if you want faster-whisper on your NVIDIA GPU instead of CPU.
+# Safe to omit entirely on machines with no GPU — faster-whisper/ctranslate2
+# will just run on CPU without these.
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*
