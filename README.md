@@ -16,7 +16,7 @@
   <a href="#-empirical-benchmark-scorecard"><img src="https://img.shields.io/badge/Latency-%3C%20800ms%20Local-8B5CF6?style=flat-square&logo=speedtest&logoColor=white" alt="Latency"></a>
   <a href="#-privacy--zero-egress"><img src="https://img.shields.io/badge/Zero--Egress-0%20Raw%20Bytes-EF4444?style=flat-square&logo=security&logoColor=white" alt="Zero Egress"></a>
   <a href="https://www.qt.io/"><img src="https://img.shields.io/badge/GUI-PyQt5%20Squircle-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PyQt5"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Proprietary%20%7C%20All%20Rights%20Reserved-red.svg?style=flat-square" alt="License: Proprietary"></a>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@
 
 Cloud dictation platforms (Whisper API, Google Speech, Nuance) leak audio recordings over the internet, charge recurring monthly subscriptions, and introduce jarring 1.5–3.0 second latency delays. 
 
-**ECHO** is an open-source, production-ready desktop dictation application designed for power users, developers, and writers:
+**ECHO** is a high-performance desktop dictation application designed for power users, developers, and writers:
 - 🚀 **Sub-Second Offline Speech AI:** Powered by `faster-whisper` (CTranslate2 C++ inference runtime) with native NVIDIA CUDA 12 & cuDNN 9 acceleration, falling back gracefully to optimized `int8` CPU execution.
 - 🎯 **Seamless Win32 Focus Injection:** Automatically detects the foreground application window (browser, VS Code, Discord, Microsoft Word, Terminal) and injects transcribed text directly at the active cursor without corrupting clipboard state.
 - 🏝️ **Dynamic Island HUD Overlay:** A persistent, non-focus-stealing floating HUD rendered via custom `QPainter` continuous-curvature squircle geometry ($n=4.0$), real-time audio waveform mirroring, and spring-damper motion physics.
@@ -177,5 +177,9 @@ python main.py
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+## 📄 License & Terms of Use
+Copyright © 2026 Dharshin R. All Rights Reserved.
+
+This software is source-available solely for personal, non-commercial review and evaluation. **Redistribution, commercial deployment, repackaging, or unauthorized derivative creation without explicit prior written authorization from Dharshin R is strictly prohibited.**
+
+For commercial licensing, enterprise deployment, or inquiries, contact [iqandeq006@email.com](mailto:iqandeq006@email.com). See [LICENSE](LICENSE) for full legal terms.
